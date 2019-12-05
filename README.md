@@ -49,25 +49,6 @@
 
  4、LabelsView（标签）
 
-  <com.nhl_lib.view.weight.LabelsView
-                 xmlns:app="http://schemas.android.com/apk/res-auto"
-                 android:id="@+id/labels"
-                 android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:minHeight="25dp"
-                 app:labelBackground="@drawable/xunme_label_bg"  //背景色（点击跟未点击）
-                 app:labelTextColor="@drawable/xunme_label_text_color"  //文字颜色（点击跟未点击）
-                 app:labelTextPaddingBottom="3dp"
-                 app:labelTextPaddingLeft="12dp"
-                 app:labelTextPaddingRight="12dp"
-                 android:layout_gravity="center"
-                 app:labelTextPaddingTop="3dp"
-                 app:labelTextSize="13sp"
-                 app:lineMargin="10dp"
-                 app:maxSelect="0"   //最大选择（默认为0）
-                 app:minSelect="1"   //最小选择
-                 app:selectType="MULTI"   //选中类型（单选多选）
-                 app:wordMargin="10dp" />
             设置数据源
             labels.setLabels(list);
             设置点击监听

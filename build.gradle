@@ -13,8 +13,10 @@ buildscript {
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
 
-        // 下面两行是新添加的
+
         classpath'com.novoda:bintray-release:0.8.0'
+
+
     }
 }
 
@@ -29,6 +31,8 @@ allprojects {
     tasks.withType(Javadoc) {//解决lib中中文乱码问题
         options.addStringOption('Xdoclint:none', '-quiet')
         options.addStringOption('encoding', 'UTF-8')
+        //方法上忽略@return和@param注解未添加说明注释
+        options.addStringOption('Xdoclint:none', '-quiet')
     }
 }
 
