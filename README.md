@@ -14,7 +14,7 @@
     设置文本跟要变色的文字 颜色
     txt.setSpecifiedTextsColor(整段内容, 想要变色的文字, 想要变色的文字颜色);
 
-2、CustomDatePicker（时间选择）\
+2、CustomDatePicker（时间选择）
 
       CustomDatePicker customDatePicker = new CustomDatePicker(context, 开始时间, 结束时间, 标题文本, 标题颜色,
                         确定文本, 确定文本颜色, 取消文本, 取消文本颜色, 当前时间,

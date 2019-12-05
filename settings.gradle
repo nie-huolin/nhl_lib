@@ -1,0 +1,2 @@
+include ':nhl'
+rootProject.name='Nhl_lib'
